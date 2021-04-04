@@ -12,11 +12,11 @@ tags: jekyll 前端开发 设计
 
 ## H2O
 
-[源码及使用文档 →](https://github.com/kaeyleo/jekyll-theme-H2O)
+[源码及使用文档 →](https://github.com/szc-sun/szc-sun.github.io)
 
 ![](https://szc-sun.github.io/screenshot/jekyll-theme-h2o-realhome.jpg)
 
-新主题名叫"H2O"，基于Jekyll 3.0.x（使用```gem update jekyll```升级Jekyll），Markdown的代码高亮不再支持pygments转而使用rouge，咱已经默认配置了 ```highlighter: rouge``` 。用到的技术栈也很简单：引入jQuery类库，使用Sass编写样式，使用Gulp来编译Sass、合并压缩css、js，开源在[Github](https://github.com/kaeyleo/jekyll-theme-H2O)上，稍作配置即可用于你的Jekyll博客上。
+新主题名叫"H2O"，基于Jekyll 3.0.x（使用```gem update jekyll```升级Jekyll），Markdown的代码高亮不再支持pygments转而使用rouge，咱已经默认配置了 ```highlighter: rouge``` 。用到的技术栈也很简单：引入jQuery类库，使用Sass编写样式，使用Gulp来编译Sass、合并压缩css、js，开源在[Github](https://github.com/szc-sun/szc-sun.github.io)上，稍作配置即可用于你的Jekyll博客上。
 
 ![Design with Sketch](https://szc-sun.github.io/screenshot/jekyll-theme-h2o-sketchdesign.png)
 
@@ -121,4 +121,4 @@ H2O在这方面还有很多需要完善的地方，比如：<strike>代码高亮
 
 本想趁这次机会将整站https化的，但折腾了半天发现弹性web托管并不支持，所以暂时搁置https的想法。另外，博客统计工具一直使用的是[百度统计](https://tongji.baidu.com)，这次新增了Google Analytics。
 
-这次从0到1，独自设计、开发再到发布大约用了一周时间，也算完成一个小小的开源项目了，后续也将持续完善和更新，欢迎[Star](https://github.com/kaeyleo/jekyll-theme-H2O)。
+欢迎[Star](https://github.com/szc-sun/szc-sun.github.io)。
