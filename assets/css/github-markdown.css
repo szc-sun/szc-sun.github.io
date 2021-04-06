@@ -16,14 +16,20 @@
 }
 
 .markdown-body ul:first-child{
-  position: absolute;
+  position: sticky;
   width: 200px;
   right: -200px;
 }
 
 .markdown-body ul:first-child li a{
   display: block;
+  position: relative;
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
+.markdown-body ul:first-child li a:hover:after {position:absolute;top:16px;left:0;content:attr(href);padding:2px 5px;color:#000000;border:1px solid #99CC29;background-color:#E5E5E5;border-radius:3px;box-shadow:0 1px 0 #000000;}
 
 .markdown-body .pl-c {
   color: #969896;
