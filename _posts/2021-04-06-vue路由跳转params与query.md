@@ -4,25 +4,10 @@ title: 'vue路由跳转 params与query'
 subtitle: 'vue路由跳转 params与query  路由传参,vue-router打开新页面'
 date: 2021-04-06
 categories: 前端
-cover: 'https://szc-sun.github.io/screenshot/jekyll-theme-h2o-postcover.png'
+cover: ''
 tags: vue vue-router
 ---
-<!-- TOC -->
 
-- [params与query](#params与query)
-- [一、用query传参可以直接写在path路由地址里，也可写在json对象中](#一用query传参可以直接写在path路由地址里也可写在json对象中)
-		- [1、写在json对象中 ，name和path都可以](#1写在json对象中-name和path都可以)
-		- [2、写在path中](#2写在path中)
-		- [接收参数 都是下面内容](#接收参数-都是下面内容)
-- [二、用params时 用query传参可以直接写在path路由地址里，或者写在json对象中用路由的name属性传参](#二用params时-用query传参可以直接写在path路由地址里或者写在json对象中用路由的name属性传参)
-		- [路由表的配置](#路由表的配置)
-		- [1、用params传参需要直接写在json对象中，跳转地址为router中配置的name（此处是About），params中是传的数据](#1用params传参需要直接写在json对象中跳转地址为router中配置的name此处是aboutparams中是传的数据)
-		- [2、用params传参需要直接写在path，params中不用写数据](#2用params传参需要直接写在pathparams中不用写数据)
-		- [接收参数都是下面的内容](#接收参数都是下面的内容)
-- [总结：](#总结)
-- [vue-router打开新页面](#vue-router打开新页面)
-
-<!-- /TOC -->
 ### params与query
 
 router文件下index.js里面，是这么定义路由的：
